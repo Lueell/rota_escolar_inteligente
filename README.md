@@ -63,6 +63,7 @@ Link do protótipo: https://lovable.dev/projects/c43378fd-b8b1-5c57-a16a-22d2920
 
 <img width="1251" height="831" alt="rota-escolar-inteligente drawio" src="https://github.com/user-attachments/assets/22470064-e30c-4696-8bbe-ffbe43dab73c" />
 
+link para o diagrama: https://drive.google.com/file/d/1csZQaGAeicBvzOAzS46KxFGL8PiBXFbf/view?usp=sharing
 
 O projeto possui um diagrama Entidade-Relacionamento (DER), desenvolvido para representar as entidades, seus atributos e os relacionamentos necessários ao funcionamento do sistema.
 
@@ -104,7 +105,6 @@ Mudou no decorrer do trabalho: a cor principal, que saiu do verde IFRN para amar
 
 A inteligência artificial foi utilizada como ferramenta de apoio, enquanto as decisões sobre as funcionalidades e os requisitos do sistema foram definidas pelos integrantes.
 
-⸻
 
 ## Tecnologias e Ferramentas
 
