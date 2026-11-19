@@ -68,13 +68,35 @@ Durante o desenvolvimento do projeto, utilizamos a ferramenta Lovable como auxí
 
 A inteligência artificial foi utilizada para gerar uma estrutura inicial das telas e auxiliar na organização visual do sistema.
 
+Prompt Utilizado:
+Crie um protótipo web, responsivo e com visual limpo, de um Sistema de Gestão do Transporte Escolar para estudantes do IFRN – Campus Pau dos Ferros.
+
+Problema: hoje os alunos combinam o transporte por grupos de WhatsApp, o que gera falta de confirmação organizada de quem vai usar o ônibus, falta de controle de quem realmente embarcou e dependência de mensagens para saber onde o ônibus está. O sistema centraliza isso: o aluno confirma a viagem do dia, o embarque é registrado por tag NFC e o responsável pelo transporte acompanha a lista de passageiros.
+
+Regras: usar apenas dados fictícios no próprio front-end, sem backend, banco de dados nem autenticação real; não implementar NFC nem GPS de verdade — simular com botão "Simular leitura NFC" e mapa ilustrativo; interface toda em português do Brasil; cards com bordas arredondadas e boa legibilidade no celular.
+
+Perfis: aluno (confirma viagens e acompanha o ônibus) e responsável pelo transporte (vê passageiros e registra embarques), com entrada rápida na tela de login.
+
+Telas (mínimo 4):
+
+Login — título do sistema, e-mail, senha, botão Entrar e entrada rápida por perfil.
+Listagem de viagens — cards com data, horário, sentido, ônibus, status e alunos confirmados; filtro por data e sentido; ao aluno mostra se ele confirmou, ao responsável mostra confirmados x embarcados.
+Detalhe da viagem — mapa ilustrativo com posição do ônibus e previsão de chegada; lista de passageiros com situação ("Confirmado", "Embarcou" ou "Confirmou e não embarcou"); no responsável, "Simular leitura NFC" e "Registrar embarque manual"; no aluno, "Confirmar presença" / "Cancelar confirmação".
+Cadastro / confirmação de viagem — formulário com data, trajeto (ir ao IFRN, voltar para a cidade ou ambos), ponto de embarque e ponto de desembarque, com validação dos campos obrigatórios e mensagem de sucesso.
+Tela extra: central de notificações com avisos de divergência (ex.: "João confirmou a viagem das 6h30 mas ainda não embarcou").
+
+Dados fictícios: 8 a 10 alunos com nomes brasileiros e cidades da região (Pau dos Ferros, Alexandria, São Miguel, Encanto), 3 ônibus com placas fictícias, 5 a 6 pontos de parada e 4 a 6 viagens entre ida e volta.
+
+Modelo de dados: Usuario, Aluno, Responsavel, TagNFC, Onibus, PontoParada, Viagem, Confirmacao, Embarque, Localizacao e Notificacao.
+
 O que foi aproveitado:
 
-A estrutura visual inicial, a organização das telas e os elementos de interface gerados pela ferramenta foram utilizados como base para o protótipo.
+Ficou do prompt: as quatro telas exigidas (login, listagem, detalhe e cadastro/confirmação), os dois perfis com entrada rápida, a simulação de NFC e de GPS, a validação do formulário de confirmação, a central de notificações com divergências e os dados fictícios seguindo o modelo de entidades.
+
 
 O que foi modificado:
 
-As sugestões geradas foram avaliadas e adaptadas de acordo com as necessidades do projeto, buscando manter as funcionalidades e a identidade visual propostas pelo grupo.
+Mudou no decorrer do trabalho: a cor principal, que saiu do verde IFRN para amarelo e azul-escuro; a leitura de NFC real pelo celular (Android) foi adicionada como opção, mantendo a simulação e o embarque manual como alternativa; a tela inicial do aluno foi reorganizada com saudação e data, container de confirmação da viagem do dia, acompanhamento por GPS e "Embarques de hoje"; e a página de agendamento passou a ter as quatro opções (ida e volta, só ida, só volta, não vou hoje) com os campos de ponto aparecendo conforme a escolha.
 
 A inteligência artificial foi utilizada como ferramenta de apoio, enquanto as decisões sobre as funcionalidades e os requisitos do sistema foram definidas pelos integrantes.
 
