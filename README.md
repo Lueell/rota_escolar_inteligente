@@ -43,7 +43,7 @@ O protótipo inicial do sistema foi desenvolvido com auxílio da ferramenta Lova
 
 Telas do Sistema
 
-1. Login <img width="739" height="1000" alt="3f725d5b-7dbc-47d3-9cb9-fac891d17350" src="https://github.com/user-attachments/assets/a1904f63-0619-450f-841f-c848216e8d7b" />
+1. Login <img width="739" height="1600" alt="3f725d5b-7dbc-47d3-9cb9-fac891d17350" src="https://github.com/user-attachments/assets/a1904f63-0619-450f-841f-c848216e8d7b" />
 
 
 2. Listagem <img width="739" height="1600" alt="7a1ec7c8-bcec-41a4-955b-1e6e76c3ddfe" src="https://github.com/user-attachments/assets/685b26cc-ca76-44ca-86ab-0e9ef6ff76d2" />
