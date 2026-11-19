@@ -79,8 +79,6 @@ Crie um protótipo web, responsivo e com visual limpo, de um Sistema de Gestão 
 
 Problema: hoje os alunos combinam o transporte por grupos de WhatsApp, o que gera falta de confirmação organizada de quem vai usar o ônibus, falta de controle de quem realmente embarcou e dependência de mensagens para saber onde o ônibus está. O sistema centraliza isso: o aluno confirma a viagem do dia, o embarque é registrado por tag NFC e o responsável pelo transporte acompanha a lista de passageiros.
 
-Regras: usar apenas dados fictícios no próprio front-end, sem backend, banco de dados nem autenticação real; não implementar NFC nem GPS de verdade — simular com botão "Simular leitura NFC" e mapa ilustrativo; interface toda em português do Brasil; cards com bordas arredondadas e boa legibilidade no celular.
-
 Perfis: aluno (confirma viagens e acompanha o ônibus) e responsável pelo transporte (vê passageiros e registra embarques), com entrada rápida na tela de login.
 
 Telas (mínimo 4):
