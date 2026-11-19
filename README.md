@@ -2,7 +2,7 @@
 
 ### Sistema de Gestão do Transporte Escolar por NFC
 
-### Integrantes
+**Integrantes**
 
 * Lucas Emanuel da Silva Costa
 * Keyte Bel de Souza Nascimento
@@ -11,7 +11,7 @@
 
 Instituição: IFRN – Campus Pau dos Ferros
 
-### Trilha escolhida: Eletricidade Instrumental e Programação para Internet.
+**Trilha escolhida: Eletricidade Instrumental e Programação para Internet.**
 
 ## Sobre o Projeto
 
